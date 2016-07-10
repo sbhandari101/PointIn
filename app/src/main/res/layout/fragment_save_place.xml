@@ -1,0 +1,167 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.85"
+            android:weightSum="1"
+            android:layout_gravity="center"
+            android:background="#ffffff">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cardheaderborder"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/placeGroup">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="   CURRENT LOCATION"
+                            android:id="@+id/current"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textColor="#343434"
+                            android:textSize="13dp"
+                            android:checked="true"
+                            android:buttonTint="#0EAD99"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="   SEARCH LOCATION"
+                            android:id="@+id/search"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#343434"
+                            android:textSize="13dp"
+                            android:buttonTint="#0EAD99"
+                            android:button="@drawable/abc_btn_radio_material" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:background="#eeeeee">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/llplacesearch">
+
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/card_view"
+                        android:layout_gravity="center"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        card_view:cardCornerRadius="4dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp">
+
+                        <FrameLayout
+                            android:layout_width="330dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/autocomplete">
+                        </FrameLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:spinnerMode="dropdown"
+                android:fontFamily="sans-serif-condensed"
+                android:background="@drawable/spinner_background" />
+
+            <EditText
+                android:fontFamily="sans-serif-condensed"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:inputType="textCapSentences|textLongMessage|textMultiLine"
+                android:id="@+id/editText"
+                android:layout_gravity="center_horizontal"
+                android:hint="Describe location."
+                android:paddingTop="5dp"
+                android:textColorHint="#dbd9d9"
+                android:textColor="#080808"
+                android:singleLine="false"
+                android:outlineProvider="background"
+                android:theme="@android:style/Widget.Holo.EditText"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollIndicators="right"
+                android:background="@drawable/borderdesc"
+
+                android:capitalize="sentences" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Save location"
+                android:id="@+id/button"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="16dp"
+                android:paddingTop="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingBottom="3dp"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#f0f0f0"
+                android:textColor="#000000"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

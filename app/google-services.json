@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "466602551105",
+    "project_id": "firebase-twrelease"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466602551105:android:d7177e4cb99a10ec",
+        "android_client_info": {
+          "package_name": "pointinapp.sachin_jadhav3.pointinnav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIKJ31kAly5QLVVqByE1hvIkNfu48gglM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

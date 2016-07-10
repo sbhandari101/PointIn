@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pointinapp.sachin_jadhav3.pointinnav.ListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#ECE9E1"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="9"-->
+            <!--android:background="@drawable/listback"-->
+            <!--android:gravity="center_vertical|center_horizontal">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="YOUR SAVED LOCATIONS"-->
+                <!--android:id="@+id/listtitle"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="15dp"-->
+                <!--android:paddingLeft="10dp" />-->
+        <!--</LinearLayout>-->
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="0dp"
+            android:background="#f0f0f0"
+            android:layout_marginBottom="10dp"
+            android:dividerHeight="7dp"
+            android:divider="#ECE9E1"
+            android:layout_weight="1">
+        </ListView>
+
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/whiteplus"
+        app:backgroundTint="#CD3333" />
+
+</FrameLayout>

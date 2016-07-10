@@ -1,0 +1,58 @@
+<resources>
+    <string-array name="places">
+        <item>Select location type</item>
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bar</item>
+        <item>Building</item>
+        <item>Bus Stop</item>
+        <item>Cafe</item>
+        <item>Camp</item>
+        <item>Casino</item>
+        <item>Friend</item>
+        <item>Food</item>
+        <item>Hill Station</item>
+        <item>Home</item>
+        <item>Hotel</item>
+        <item>Hospital</item>
+        <item>Mall</item>
+        <item>Motorcycle</item>
+        <item>Parking</item>
+        <item>Park</item>
+        <item>Person</item>
+        <item>Petrol Pump</item>
+        <item>Place</item>
+        <item>Pool</item>
+        <item>Post Office</item>
+        <item>Shop</item>
+        <item>Smoking Zone</item>
+        <item>Theatre</item>
+        <item>Train Station</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="app_name">PointIn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+   <!-- <string name="gcm_defaultSenderId">466602551105</string> -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutPointIn">
+        If you hate remembering places you have been then this is the perfect app for you ! \n\n
+
+        PointIn is the personalized place locator and place sharing app.\n
+        \n
+        This easy to use app helps you to save the location that you may want to remember or want to visit in near future and maintains the list of all your saved places. Using PointIn you would be able to get the direction for your saved places from your current location.\n
+        \n
+        PointIn allows you to share your saved places with your friends over whatsApp ,fb etc.
+
+    </string>
+    <string name="facebook_app_id">734782173330864</string>
+    <string name="date"> - </string>
+</resources>

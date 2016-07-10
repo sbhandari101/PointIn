@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:minWidth="200dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Turn On mobile data"
+            android:id="@+id/textView4"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd">
+
+        <Button
+            android:id="@+id/yesB"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:layout_below="@+id/image"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="12dp"
+            android:layout_marginRight="1dp" />
+
+        <Button
+            android:id="@+id/noB"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:layout_below="@+id/image"
+            android:layout_weight="1"
+            android:background="#f0f0f0"
+            android:textSize="12dp"
+            android:layout_marginLeft="1dp"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+</LinearLayout>
